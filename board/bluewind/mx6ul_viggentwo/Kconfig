@@ -1,0 +1,15 @@
+if TARGET_MX6UL_VIGGENTWO
+
+config SYS_BOARD
+	default "mx6ul_viggentwo"
+
+config SYS_VENDOR
+	default "bluewind"
+
+config SYS_SOC
+	default "mx6"
+
+config SYS_CONFIG_NAME
+	default "mx6ul_viggentwo"
+
+endif
